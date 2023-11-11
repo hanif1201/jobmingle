@@ -1,0 +1,39 @@
+.partner__section {
+  margin-top: 40px;
+}
+
+.partner__section__content {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: 100%;
+  border: 2px solid #021c5f;
+  /* border-radius: 20px; */
+  display: flex;
+  padding: 10px 10px;
+  margin-right: 40px;
+
+  align-items: center;
+}
+
+.partner__section__title {
+  display: flex;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  justify-content: center;
+
+  color: #f6cc16;
+}
+.partner {
+  display: flex;
+  justify-content: center;
+  padding: 20px 100px;
+}
+
+.partner__image {
+  width: 50%;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 5px;
+}
