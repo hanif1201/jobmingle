@@ -1,0 +1,66 @@
+.hero__section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 90px;
+}
+
+.hero__section__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero__section__content__title {
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.hero__span {
+  color: #f6cc16;
+}
+
+.hero__section__content__text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  width: 50%;
+  line-height: 2rem;
+  font-weight: 300;
+}
+.hero__tagline {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  width: 50%;
+  font-weight: bold;
+}
+
+.btn--hero {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.btn--primary {
+  background-color: #f6cc16;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.btn--secondary {
+  background-color: inherit;
+  border: 2px solid #000000;
+  color: #000000; /* White text */
+  padding: 15px 32px; /* Padding around the text */
+  text-align: center; /* Centered text */
+  text-decoration: none;
+  display: inline-block;
+
+  margin: 4px 2px;
+  cursor: pointer; /* Cursor changes to a pointer on hover */
+  border-radius: 8px; /* Rounded corners */
+}
