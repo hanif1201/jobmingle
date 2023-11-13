@@ -1,5 +1,5 @@
 .partner__section {
-  margin-top: 40px;
+  margin: 40px 0;
 }
 
 .partner__section__content {
@@ -8,8 +8,8 @@
   width: 10%;
   height: 100%;
   border: 2px solid #021c5f;
-  /* border-radius: 20px; */
-  display: flex;
+  border-radius: 5px;
+
   padding: 10px 10px;
   margin-right: 40px;
 
