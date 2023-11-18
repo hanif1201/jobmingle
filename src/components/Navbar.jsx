@@ -1,4 +1,4 @@
-import logo from "../assets/vector.png";
+import logo from "../assets/Vector.png";
 import { Link } from "react-router-dom";
 import "./Styles/Navbar.css";
 
