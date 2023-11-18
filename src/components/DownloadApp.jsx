@@ -1,4 +1,6 @@
 import "./Styles/DownloadApp.css";
+import { AiOutlineApple } from "react-icons/ai";
+import { FaGooglePlay } from "react-icons/fa";
 
 const DownloadApp = () => {
   return (
@@ -10,6 +12,8 @@ const DownloadApp = () => {
         </p>
         <button className="download__section__button">
           Download JobMingle App Now
+          <FaGooglePlay className="googleplay" />
+          <AiOutlineApple className="Appleplay" />
         </button>
       </div>
     </div>

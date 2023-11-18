@@ -1,7 +1,7 @@
 /* FAQ Container */
 .faq-container {
   max-width: 80%;
-  margin: 0 auto;
+  margin: 100px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
@@ -71,4 +71,13 @@
 .up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
+}
+
+.googleplay {
+  padding-left: 5px;
+  font-size: 1.5rem;
+}
+.Appleplay {
+  padding-left: 5px;
+  font-size: 1.5rem;
 }
