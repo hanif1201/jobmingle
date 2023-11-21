@@ -1,0 +1,36 @@
+.newsletter__Section__tittle {
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  justify-content: center;
+
+  color: #f6cc16;
+}
+
+.newletter_news {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+
+  line-height: 2rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-container input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* //////////////////////// */
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}

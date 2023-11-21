@@ -1,0 +1,30 @@
+.Contact__section {
+  margin: 40px 0;
+}
+
+.contact__section__tittle {
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  justify-content: center;
+
+  color: #f6cc16;
+}
+
+.contact__office {
+  border: 1px solid #f6cc16;
+}
+
+.contact__section__content {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  padding-bottom: 3rem;
+}
+
+.location__content {
+  padding-bottom: 30px;
+}

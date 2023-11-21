@@ -5,6 +5,7 @@ import Process from "../components/Process";
 import DownloadApp from "../components/DownloadApp";
 import Faq from "../components/Faq";
 import Contact from "../components/Contact";
+import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -50,6 +51,8 @@ const Home = () => {
       <Faq faqs={faqs} />
       <DownloadApp />
       <Contact />
+      <Newsletter />
+
       <Footer />
     </div>
   );
