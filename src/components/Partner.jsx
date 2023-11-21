@@ -1,6 +1,6 @@
 import PartnerItem from "./PartnerItem";
 import "./Styles/Partner.css";
-import Binance from "../assets/binance.png";
+import Binance from "../assets/Binance.png";
 import Google from "../assets/Google.png";
 import UNESCO from "../assets/UNESCO.png";
 

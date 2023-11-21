@@ -1,4 +1,3 @@
-import Choose from "../components/Choose";
 import JobMainHero from "../components/JobMainHero";
 import Partner from "../components/Partner";
 import Process from "../components/Process";
