@@ -14,7 +14,7 @@ const Partner = () => {
         {/* <PartnerItem image={Binance} /> */}
         <PartnerItem image={Google} />
         <PartnerItem image={UNESCO} />
-        <PartnerItem image={Binance} />
+        {/* <PartnerItem image={Binance} /> */}
       </div>
     </div>
   );
