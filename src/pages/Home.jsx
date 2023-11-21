@@ -7,6 +7,7 @@ import Faq from "../components/Faq";
 import Contact from "../components/Contact";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
+import Copyright from "../components/Copyright";
 
 const Home = () => {
   const faqs = [
@@ -54,6 +55,7 @@ const Home = () => {
       <Newsletter />
 
       <Footer />
+      <Copyright />
     </div>
   );
 };

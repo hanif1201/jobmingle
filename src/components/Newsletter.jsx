@@ -9,7 +9,7 @@ const Newsletter = () => {
       </p>
 
       <form>
-        <div className="form__group">
+        <div className="newsletter__form__group">
           <input
             type="email"
             name="email"
