@@ -1,7 +1,7 @@
 import "./Styles/Hero.css";
 import jobmainhero from "../assets/JobMainHero.png";
 
-const Hero = () => {
+const JobMainHero = () => {
   return (
     <div className="hero__section">
       <div className="hero__section__content">
@@ -28,4 +28,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default JobMainHero;
