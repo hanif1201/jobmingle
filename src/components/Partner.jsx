@@ -1,6 +1,7 @@
 import PartnerItem from "./PartnerItem";
 import "./Styles/Partner.css";
 
+import Binance from "../assets/Binance.png";
 import Google from "../assets/Google.png";
 import UNESCO from "../assets/UNESCO.png";
 
@@ -11,10 +12,10 @@ const Partner = () => {
       <div className="partner">
         <PartnerItem image={Google} />
         <PartnerItem image={UNESCO} />
-        {/* <PartnerItem image={Binance} /> */}
+        <PartnerItem image={Binance} />
         <PartnerItem image={Google} />
         <PartnerItem image={UNESCO} />
-        {/* <PartnerItem image={Binance} /> */}
+        <PartnerItem image={Binance} />
       </div>
     </div>
   );
