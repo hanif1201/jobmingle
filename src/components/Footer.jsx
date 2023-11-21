@@ -5,7 +5,7 @@ import { CiTwitter } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
-import "./styles/Footer.css";
+import "./Styles/Footer.css";
 
 const Footer = () => {
   return (
