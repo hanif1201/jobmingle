@@ -64,3 +64,58 @@
   cursor: pointer; /* Cursor changes to a pointer on hover */
   border-radius: 8px; /* Rounded corners */
 }
+
+.hero__image {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.heroImage {
+  width: 100%; /* makes the image take up the full width of its parent container */
+  height: auto; /* scales the height automatically to maintain the aspect ratio */
+  max-width: 100%; /* ensures the image is not larger than its natural size */
+  display: block;
+}
+
+@media only screen and (max-width: 30rem) {
+  /* CSS rules for mobile devices */
+  .hero__section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    width: 100%;
+  }
+
+  .hero__section__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+  }
+
+  .hero__section__content__title {
+    width: 100%;
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  .hero__section__content__text {
+    width: 100%;
+  }
+
+  .hero__tagline {
+    width: 100%;
+  }
+  .btn--primary {
+    background-color: #f6cc16;
+    color: #ffffff;
+    padding: 15px;
+    width: 80%;
+  }
+  .btn--secondary {
+    width: 80%;
+  }
+  .btn--hero {
+    font-size: 1.3rem;
+  }
+}
