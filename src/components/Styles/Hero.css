@@ -80,6 +80,11 @@
 
 @media only screen and (max-width: 30rem) {
   /* CSS rules for mobile devices */
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
   .hero__section {
     display: flex;
     flex-direction: column-reverse;
