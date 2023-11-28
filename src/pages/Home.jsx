@@ -51,7 +51,7 @@ const Home = () => {
       <DownloadApp />
       <Faq faqs={faqs} />
       <DownloadApp />
-      <Contact />
+      {/* <Contact /> */}
       <Newsletter />
 
       <Footer />
