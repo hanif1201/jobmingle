@@ -85,6 +85,7 @@
     flex-direction: column-reverse;
     padding: 0 10px;
     width: 100%;
+    overflow-x: hidden;
   }
 
   .hero__section__content {
