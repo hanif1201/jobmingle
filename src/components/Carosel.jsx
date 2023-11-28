@@ -1,11 +1,30 @@
 import { useState, useEffect } from "react";
+import "./Styles/Choose.css";
+import choose001 from "../assets/choose001.png";
+import choose002 from "../assets/choose002.png";
+import choose003 from "../assets/choose003.png";
 
 const MyCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const carouselContent = [
-    <div>Item 1 Content</div>,
-    <div>Item 2 Content</div>,
-    <div>Item 3 Content</div>,
+    <>
+      <div className="choose__section__content">
+        <img src={choose001} alt="" className="choose__image" />
+        <h3 className="choose__title">text</h3>
+      </div>
+    </>,
+    <>
+      <div className="choose__section__content">
+        <img src={choose002} alt="" className="choose__image" />
+        <h3 className="choose__title">text</h3>
+      </div>
+    </>,
+    <>
+      <div className="choose__section__content">
+        <img src={choose003} alt="" className="choose__image" />
+        <h3 className="choose__title">text</h3>
+      </div>
+    </>,
   ];
 
   const goToNext = () => {
